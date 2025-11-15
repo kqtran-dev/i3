@@ -1,0 +1,100 @@
+{
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "stacked",
+    "marks": [],
+    "percent": 0.215686274509804,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1316,
+               "width": 848,
+               "x": 1156,
+               "y": 106
+            },
+            "marks": [],
+            "percent": 0.333333333333333,
+            "swallows": [
+               {
+               "class": "^steam$",
+               "instance": "^steamwebhelper$",
+               "machine": "^cachyos\\-x8664$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1316,
+               "width": 848,
+               "x": 1156,
+               "y": 106
+            },
+            "marks": [],
+            "percent": 0.333333333333333,
+            "swallows": [
+               {
+               "class": "^steam$",
+               "instance": "^steamwebhelper$",
+               "machine": "^cachyos\\-x8664$",
+               "title": "^Friends\\ List$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1362,
+       "width": 1692,
+       "x": 18,
+       "y": 60
+    },
+    "marks": [],
+    "percent": 0.392156862745098,
+    "swallows": [
+       {
+       "class": "^discord$",
+       "instance": "^discord$",
+       "machine": "^cachyos\\-x8664$",
+       "window_role": "^browser\\-window$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "none",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 720,
+       "width": 1280,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": "BlueBubbles",
+    "percent": 0.392156862745098,
+    "swallows": [
+       {
+       "class": "^Bluebubbles$",
+       "instance": "^bluebubbles$",
+       "machine": "^cachyos\\-x8664$",
+       }
+    ],
+    "type": "con"
+}
+
