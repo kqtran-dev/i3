@@ -9,7 +9,7 @@ include ~/.config/i3/workflows.conf
 # set to alt
 set $mod Mod1
 # set to win/super
-set $mod1 Mod2
+set $mod1 Mod4
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
