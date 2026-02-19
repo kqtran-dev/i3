@@ -22,7 +22,9 @@ exec --no-startup-id redshift-gtk -l 34.21:-118.87
 exec --no-startup-id blueman-applet
 exec --no-startup-id firefox
 
-
+# automatically toggle game mode when on game mode workspace
+exec_always --no-startup-id /home/kevin/.config/i3/scripts/game_mode_watch.sh
+exec_always --no-startup-id notify-send -t 1000 "i3 reload"
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.

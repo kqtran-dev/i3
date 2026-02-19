@@ -1,0 +1,4 @@
+while true; do
+    ~/.config/i3/scripts/check_game_mode.sh
+    sleep 1
+done
